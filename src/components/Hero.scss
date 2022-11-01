@@ -3,7 +3,13 @@
 .hero {
   box-sizing: border-box;
   color: #003327;
-  margin-block: 149px;
+  padding-block: 149px;
+  background-image: url(./images/orange-bg-image.png),
+    url(./images/yellow-bg-image.png), url(./images/green-bg-image.png),
+    url(./images/blue-bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 130px, 150px, 90px, 130px;
+  background-position: top 130px left, top 60px right, bottom left, bottom right;
 
   &__wrapper {
     max-width: 60%;

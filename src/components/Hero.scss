@@ -1,5 +1,45 @@
 @import "../index.scss";
 
 .hero {
-  color: red;
+  box-sizing: border-box;
+  color: #003327;
+  margin-block: 149px;
+
+  &__wrapper {
+    max-width: 60%;
+    margin-inline: auto;
+
+    .hero__title {
+      font-size: 37px;
+      font-weight: 600;
+      margin-bottom: 32px;
+
+      &--green {
+        color: #00cc9c;
+      }
+    }
+
+    .hero__content {
+      max-width: 68%;
+      font-size: 25px;
+      font-weight: 400;
+      color: #656767;
+      margin-inline: auto;
+
+      &__text {
+        margin-bottom: 32px;
+      }
+
+      &__btn {
+        background-color: #009975;
+        padding: 16px 24px;
+        border: none;
+        border-radius: 8px;
+        color: #f5fffd;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
 }

@@ -49,3 +49,26 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .hero {
+    background-size: 100px, 100px, 70px, 100px;
+
+    &__wrapper {
+      max-width: 90%;
+      margin-inline: auto;
+
+      .hero__title {
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 32px;
+      }
+
+      .hero__content {
+        max-width: 90%;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}

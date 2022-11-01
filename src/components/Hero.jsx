@@ -22,7 +22,6 @@ function Hero() {
           </button>
         </div>
       </div>
-      <p className="hero">Hero component</p>
     </section>
   );
 }

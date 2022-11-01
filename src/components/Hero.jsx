@@ -8,7 +8,7 @@ function Hero() {
         <header className="hero__title">
           <h1 id="heroSection">
             Welcome to
-            <span className="hero__title--green">your safe space</span>
+            <span className="hero__title--green"> your safe space </span>
             in the tech ecosystem
           </h1>
         </header>
